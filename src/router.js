@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Home from './views/Home.vue'
-import Select from './views/Select.vue'
+import SelectMenue from './views/SelectMenue.vue'
 import Practice from './views/Practice.vue'
 import Login from './views/Login.vue'
 import Signin from './views/Signin.vue'
@@ -20,7 +20,7 @@ export default new Router({
     {
       path: '/select',
       name: 'selecte',
-      component: Select
+      component: SelectMenue
     },
     {
       path: '/select/practice',
